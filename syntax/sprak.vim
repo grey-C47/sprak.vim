@@ -24,16 +24,16 @@ syn keyword sprakBuiltin        CharToInt
 syn keyword sprakBuiltin        ClearMemories
 syn keyword sprakBuiltin        ClearText
 syn keyword sprakBuiltin        Color
-syn keyword sprakBuiltin        Cos
 syn keyword sprakBuiltin        CopyToClipboard
+syn keyword sprakBuiltin        Cos
 syn keyword sprakBuiltin        Count
 syn keyword sprakBuiltin        DisconnectAll()
 syn keyword sprakBuiltin        DisplayGraphics()
 syn keyword sprakBuiltin        EraseMemory
 syn keyword sprakBuiltin        FindPath
+syn keyword sprakBuiltin        GetHour
 syn keyword sprakBuiltin        GetIndexes
 syn keyword sprakBuiltin        GetMemories
-syn keyword sprakBuiltin        GetHour
 syn keyword sprakBuiltin        GetMinute
 syn keyword sprakBuiltin        GetUser
 syn keyword sprakBuiltin        HasFloppy
@@ -53,27 +53,27 @@ syn keyword sprakBuiltin        Mod
 syn keyword sprakBuiltin        MovePerson
 syn keyword sprakBuiltin        Name
 syn keyword sprakBuiltin        Pitch
-syn keyword sprakBuiltin        Position
 syn keyword sprakBuiltin        PlaySound
-syn keyword sprakBuiltin        Prit
+syn keyword sprakBuiltin        Position
+syn keyword sprakBuiltin        Print
 syn keyword sprakBuiltin        PrintS
 syn keyword sprakBuiltin        Quit
 syn keyword sprakBuiltin        Random
 syn keyword sprakBuiltin        Range
 syn keyword sprakBuiltin        Rect
-syn keyword sprakBuiltin        Repeat
 syn keyword sprakBuiltin        RemoteFunctionCall
 syn keyword sprakBuiltin        Remove
 syn keyword sprakBuiltin        RemoveAll
+syn keyword sprakBuiltin        Repeat
 syn keyword sprakBuiltin        RGBtoHSV
 syn keyword sprakBuiltin        Round
 syn keyword sprakBuiltin        SaveData
 syn keyword sprakBuiltin        SaveMemory
 syn keyword sprakBuiltin        Say
 syn keyword sprakBuiltin        Sin
-syn keyword sprakBuiltin        StringContains
 syn keyword sprakBuiltin        Sleep
 syn keyword sprakBuiltin        Slurp
+syn keyword sprakBuiltin        StringContains
 syn keyword sprakBuiltin        Teleport
 syn keyword sprakBuiltin        Text
 syn keyword sprakBuiltin        Time
@@ -95,6 +95,7 @@ syn keyword sprakBuiltin        LoadData
 
 " Internet
 syn keyword sprakBuiltin        Connect
+syn keyword sprakBuiltin        GetConnections
 
 " Screwdrivers
 syn keyword sprakBuiltin        EnableAPI
